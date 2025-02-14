@@ -18,8 +18,11 @@ class ElectricCar(Car):
 
 
 class Person:
-    def __init__(self, name, age, ):
-        print(f'Hi, my name is {name} and I am {age} years old')
+    def __init__(self, name, age,species):
+        self.name = name
+        self.age = age
+        self.species = species
+        print(f'Hi, my name is {name} and I am {age} years old,species is {species}')
 
 
 
